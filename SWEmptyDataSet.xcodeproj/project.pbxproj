@@ -106,7 +106,7 @@
 				3657F1E620C530DC006492FD /* Sources */,
 				3657F1E720C530DC006492FD /* Frameworks */,
 				3657F1E820C530DC006492FD /* Resources */,
-				4ABB597662B49582147EA946 /* [CP] Copy Pods Resources */,
+				FE446FC093A7436CB9559E82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,28 +163,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4ABB597662B49582147EA946 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/error@2x.png",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/loading_imgBlue_78x78@2x.png",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/loading_imgBlue_78x78@3x.png",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@3x.png",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8803C3069D8CA8B42C0FB1D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +179,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE446FC093A7436CB9559E82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/image/error@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/image/loading_imgBlue_78x78@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/image/loading_imgBlue_78x78@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

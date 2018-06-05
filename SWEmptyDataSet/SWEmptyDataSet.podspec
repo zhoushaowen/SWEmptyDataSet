@@ -18,7 +18,13 @@ Pod::Spec.new do |s|
 
   s.source_files  = "SWEmptyDataSet/*.{h,m}"
   
-  s.resources  = "SWEmptyDataSet/Resource/*.png"
+  s.resources  = "SWEmptyDataSet/image/*.png"
+
+  #   s.subspec 'UIKit' do |ss|
+
+  # ss.source_files = "SWExtension/SWExtension/UIKit/*.{h,m}"
+
+  # end
   
   s.requires_arc = true
 
