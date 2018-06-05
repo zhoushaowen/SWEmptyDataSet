@@ -2,4 +2,6 @@ target "SWEmptyDataSet" do
 
 # pod 'SWEmptyDataSet',:path=>'./'
 
+pod 'DZNEmptyDataSet'
+
 end

@@ -7,7 +7,7 @@
 //
 
 #import "SWEmptyDataSetController.h"
-#import <SWEmptyDataSet.h>
+#import "SWEmptyDataSet.h"
 
 @interface SWEmptyDataSetController ()
 

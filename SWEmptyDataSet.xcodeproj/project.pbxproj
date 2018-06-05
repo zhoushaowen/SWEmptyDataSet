@@ -7,90 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3657F1EF20C530DC006492FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657F1EE20C530DC006492FD /* AppDelegate.m */; };
-		3657F1F520C530DC006492FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657F1F320C530DC006492FD /* Main.storyboard */; };
-		3657F1F720C530DE006492FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3657F1F620C530DE006492FD /* Assets.xcassets */; };
-		3657F1FA20C530DE006492FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657F1F820C530DE006492FD /* LaunchScreen.storyboard */; };
-		3657F1FD20C530DE006492FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657F1FC20C530DE006492FD /* main.m */; };
-		3657F20E20C5312F006492FD /* SWEmptyDataSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3657F20D20C5312F006492FD /* SWEmptyDataSetController.m */; };
-		D67EC86BEA70BC4204AFB027 /* libPods-SWEmptyDataSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308836E233F236232E1FE54E /* libPods-SWEmptyDataSet.a */; };
+		2D0C3B71C35749C2D506E3DE /* libPods-SWEmptyDataSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F11D0648A4682EFD590DF8 /* libPods-SWEmptyDataSet.a */; };
+		36A699F720C66AF000DBF3DD /* SWEmptyDataSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A699F620C66AF000DBF3DD /* SWEmptyDataSetController.m */; };
+		36DFA89920C669CF00E558DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA89820C669CF00E558DD /* AppDelegate.m */; };
+		36DFA89F20C669CF00E558DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA89D20C669CF00E558DD /* Main.storyboard */; };
+		36DFA8A120C669D100E558DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8A020C669D100E558DD /* Assets.xcassets */; };
+		36DFA8A420C669D100E558DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8A220C669D100E558DD /* LaunchScreen.storyboard */; };
+		36DFA8A720C669D100E558DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8A620C669D100E558DD /* main.m */; };
+		36DFA8B920C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */; };
+		36DFA8BA20C66A4600E558DD /* loading_imgBlue_78x78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */; };
+		36DFA8BB20C66A4600E558DD /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B320C66A4600E558DD /* error@2x.png */; };
+		36DFA8BC20C66A4600E558DD /* loading_imgBlue_78x78@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */; };
+		36DFA8BD20C66A4600E558DD /* SWBaseEmptyDataSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */; };
+		36DFA8BE20C66A4600E558DD /* SWNormalEmptyDataSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24437A1410964851D613118A /* Pods-SWEmptyDataSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.debug.xcconfig"; sourceTree = "<group>"; };
-		308836E233F236232E1FE54E /* libPods-SWEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWEmptyDataSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		357748688BC04053C7DA9653 /* Pods-SWEmptyDataSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.release.xcconfig"; sourceTree = "<group>"; };
-		3657F1EA20C530DC006492FD /* SWEmptyDataSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWEmptyDataSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3657F1ED20C530DC006492FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3657F1EE20C530DC006492FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3657F1F420C530DC006492FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3657F1F620C530DE006492FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3657F1F920C530DE006492FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3657F1FB20C530DE006492FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3657F1FC20C530DE006492FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3657F20C20C5312F006492FD /* SWEmptyDataSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEmptyDataSetController.h; sourceTree = "<group>"; };
-		3657F20D20C5312F006492FD /* SWEmptyDataSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEmptyDataSetController.m; sourceTree = "<group>"; };
+		11A58B69E10F23C27AF9A905 /* Pods-SWEmptyDataSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.release.xcconfig"; sourceTree = "<group>"; };
+		18DA1D0A304579E52937A08A /* Pods-SWEmptyDataSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.debug.xcconfig"; sourceTree = "<group>"; };
+		30F11D0648A4682EFD590DF8 /* libPods-SWEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWEmptyDataSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A699F420C66ABB00DBF3DD /* SWBaseEmptyDataSetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWBaseEmptyDataSetModel.h; sourceTree = "<group>"; };
+		36A699F520C66AEF00DBF3DD /* SWEmptyDataSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEmptyDataSetController.h; sourceTree = "<group>"; };
+		36A699F620C66AF000DBF3DD /* SWEmptyDataSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEmptyDataSetController.m; sourceTree = "<group>"; };
+		36DFA89420C669CF00E558DD /* SWEmptyDataSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWEmptyDataSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DFA89720C669CF00E558DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36DFA89820C669CF00E558DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36DFA89E20C669CF00E558DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36DFA8A020C669D100E558DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36DFA8A320C669D100E558DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36DFA8A520C669D100E558DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DFA8A620C669D100E558DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SWEmptyDataSet.m"; sourceTree = "<group>"; };
+		36DFA8AF20C66A4600E558DD /* SWEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEmptyDataSet.h; sourceTree = "<group>"; };
+		36DFA8B020C66A4600E558DD /* SWNormalEmptyDataSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNormalEmptyDataSetModel.h; sourceTree = "<group>"; };
+		36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_imgBlue_78x78@2x.png"; sourceTree = "<group>"; };
+		36DFA8B320C66A4600E558DD /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_imgBlue_78x78@3x.png"; sourceTree = "<group>"; };
+		36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBaseEmptyDataSetModel.m; sourceTree = "<group>"; };
+		36DFA8B620C66A4600E558DD /* UIScrollView+SWEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SWEmptyDataSet.h"; sourceTree = "<group>"; };
+		36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNormalEmptyDataSetModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3657F1E720C530DC006492FD /* Frameworks */ = {
+		36DFA89120C669CF00E558DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D67EC86BEA70BC4204AFB027 /* libPods-SWEmptyDataSet.a in Frameworks */,
+				2D0C3B71C35749C2D506E3DE /* libPods-SWEmptyDataSet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0410FF696C7F54CEF8C240AC /* Frameworks */ = {
+		36DFA88B20C669CF00E558DD = {
 			isa = PBXGroup;
 			children = (
-				308836E233F236232E1FE54E /* libPods-SWEmptyDataSet.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3657F1E120C530DC006492FD = {
-			isa = PBXGroup;
-			children = (
-				3657F1EC20C530DC006492FD /* SWEmptyDataSet */,
-				3657F1EB20C530DC006492FD /* Products */,
-				C49C0CEB45B4653260972B60 /* Pods */,
-				0410FF696C7F54CEF8C240AC /* Frameworks */,
+				36DFA89620C669CF00E558DD /* SWEmptyDataSet */,
+				36DFA89520C669CF00E558DD /* Products */,
+				FC0B450A43B6B21C727FF732 /* Pods */,
+				B5D8DC8EDACC72F200301084 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3657F1EB20C530DC006492FD /* Products */ = {
+		36DFA89520C669CF00E558DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3657F1EA20C530DC006492FD /* SWEmptyDataSet.app */,
+				36DFA89420C669CF00E558DD /* SWEmptyDataSet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3657F1EC20C530DC006492FD /* SWEmptyDataSet */ = {
+		36DFA89620C669CF00E558DD /* SWEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				3657F1ED20C530DC006492FD /* AppDelegate.h */,
-				3657F1EE20C530DC006492FD /* AppDelegate.m */,
-				3657F20C20C5312F006492FD /* SWEmptyDataSetController.h */,
-				3657F20D20C5312F006492FD /* SWEmptyDataSetController.m */,
-				3657F1F320C530DC006492FD /* Main.storyboard */,
-				3657F1F620C530DE006492FD /* Assets.xcassets */,
-				3657F1F820C530DE006492FD /* LaunchScreen.storyboard */,
-				3657F1FB20C530DE006492FD /* Info.plist */,
-				3657F1FC20C530DE006492FD /* main.m */,
+				36DFA8AD20C66A4600E558DD /* SWEmptyDataSet */,
+				36DFA89720C669CF00E558DD /* AppDelegate.h */,
+				36DFA89820C669CF00E558DD /* AppDelegate.m */,
+				36A699F520C66AEF00DBF3DD /* SWEmptyDataSetController.h */,
+				36A699F620C66AF000DBF3DD /* SWEmptyDataSetController.m */,
+				36DFA89D20C669CF00E558DD /* Main.storyboard */,
+				36DFA8A020C669D100E558DD /* Assets.xcassets */,
+				36DFA8A220C669D100E558DD /* LaunchScreen.storyboard */,
+				36DFA8A520C669D100E558DD /* Info.plist */,
+				36DFA8A620C669D100E558DD /* main.m */,
 			);
 			path = SWEmptyDataSet;
 			sourceTree = "<group>";
 		};
-		C49C0CEB45B4653260972B60 /* Pods */ = {
+		36DFA8AD20C66A4600E558DD /* SWEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				24437A1410964851D613118A /* Pods-SWEmptyDataSet.debug.xcconfig */,
-				357748688BC04053C7DA9653 /* Pods-SWEmptyDataSet.release.xcconfig */,
+				36DFA8B620C66A4600E558DD /* UIScrollView+SWEmptyDataSet.h */,
+				36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */,
+				36DFA8AF20C66A4600E558DD /* SWEmptyDataSet.h */,
+				36DFA8B020C66A4600E558DD /* SWNormalEmptyDataSetModel.h */,
+				36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */,
+				36A699F420C66ABB00DBF3DD /* SWBaseEmptyDataSetModel.h */,
+				36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */,
+				36DFA8B120C66A4600E558DD /* images */,
+			);
+			path = SWEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		36DFA8B120C66A4600E558DD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */,
+				36DFA8B320C66A4600E558DD /* error@2x.png */,
+				36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B5D8DC8EDACC72F200301084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F11D0648A4682EFD590DF8 /* libPods-SWEmptyDataSet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0B450A43B6B21C727FF732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18DA1D0A304579E52937A08A /* Pods-SWEmptyDataSet.debug.xcconfig */,
+				11A58B69E10F23C27AF9A905 /* Pods-SWEmptyDataSet.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,14 +140,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3657F1E920C530DC006492FD /* SWEmptyDataSet */ = {
+		36DFA89320C669CF00E558DD /* SWEmptyDataSet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3657F20020C530DE006492FD /* Build configuration list for PBXNativeTarget "SWEmptyDataSet" */;
+			buildConfigurationList = 36DFA8AA20C669D100E558DD /* Build configuration list for PBXNativeTarget "SWEmptyDataSet" */;
 			buildPhases = (
-				8803C3069D8CA8B42C0FB1D1 /* [CP] Check Pods Manifest.lock */,
-				3657F1E620C530DC006492FD /* Sources */,
-				3657F1E720C530DC006492FD /* Frameworks */,
-				3657F1E820C530DC006492FD /* Resources */,
+				69B4B90C923446735333F74F /* [CP] Check Pods Manifest.lock */,
+				36DFA89020C669CF00E558DD /* Sources */,
+				36DFA89120C669CF00E558DD /* Frameworks */,
+				36DFA89220C669CF00E558DD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,24 +155,24 @@
 			);
 			name = SWEmptyDataSet;
 			productName = SWEmptyDataSet;
-			productReference = 3657F1EA20C530DC006492FD /* SWEmptyDataSet.app */;
+			productReference = 36DFA89420C669CF00E558DD /* SWEmptyDataSet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3657F1E220C530DC006492FD /* Project object */ = {
+		36DFA88C20C669CF00E558DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = zhoushaowen;
 				TargetAttributes = {
-					3657F1E920C530DC006492FD = {
+					36DFA89320C669CF00E558DD = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = 3657F1E520C530DC006492FD /* Build configuration list for PBXProject "SWEmptyDataSet" */;
+			buildConfigurationList = 36DFA88F20C669CF00E558DD /* Build configuration list for PBXProject "SWEmptyDataSet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,31 +180,34 @@
 				en,
 				Base,
 			);
-			mainGroup = 3657F1E120C530DC006492FD;
-			productRefGroup = 3657F1EB20C530DC006492FD /* Products */;
+			mainGroup = 36DFA88B20C669CF00E558DD;
+			productRefGroup = 36DFA89520C669CF00E558DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3657F1E920C530DC006492FD /* SWEmptyDataSet */,
+				36DFA89320C669CF00E558DD /* SWEmptyDataSet */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3657F1E820C530DC006492FD /* Resources */ = {
+		36DFA89220C669CF00E558DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3657F1FA20C530DE006492FD /* LaunchScreen.storyboard in Resources */,
-				3657F1F720C530DE006492FD /* Assets.xcassets in Resources */,
-				3657F1F520C530DC006492FD /* Main.storyboard in Resources */,
+				36DFA8BA20C66A4600E558DD /* loading_imgBlue_78x78@2x.png in Resources */,
+				36DFA8BB20C66A4600E558DD /* error@2x.png in Resources */,
+				36DFA8A420C669D100E558DD /* LaunchScreen.storyboard in Resources */,
+				36DFA8A120C669D100E558DD /* Assets.xcassets in Resources */,
+				36DFA89F20C669CF00E558DD /* Main.storyboard in Resources */,
+				36DFA8BC20C66A4600E558DD /* loading_imgBlue_78x78@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8803C3069D8CA8B42C0FB1D1 /* [CP] Check Pods Manifest.lock */ = {
+		69B4B90C923446735333F74F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,31 +228,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3657F1E620C530DC006492FD /* Sources */ = {
+		36DFA89020C669CF00E558DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3657F1FD20C530DE006492FD /* main.m in Sources */,
-				3657F1EF20C530DC006492FD /* AppDelegate.m in Sources */,
-				3657F20E20C5312F006492FD /* SWEmptyDataSetController.m in Sources */,
+				36DFA8A720C669D100E558DD /* main.m in Sources */,
+				36DFA8BD20C66A4600E558DD /* SWBaseEmptyDataSetModel.m in Sources */,
+				36DFA8BE20C66A4600E558DD /* SWNormalEmptyDataSetModel.m in Sources */,
+				36DFA8B920C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m in Sources */,
+				36A699F720C66AF000DBF3DD /* SWEmptyDataSetController.m in Sources */,
+				36DFA89920C669CF00E558DD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3657F1F320C530DC006492FD /* Main.storyboard */ = {
+		36DFA89D20C669CF00E558DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3657F1F420C530DC006492FD /* Base */,
+				36DFA89E20C669CF00E558DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3657F1F820C530DE006492FD /* LaunchScreen.storyboard */ = {
+		36DFA8A220C669D100E558DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3657F1F920C530DE006492FD /* Base */,
+				36DFA8A320C669D100E558DD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -215,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3657F1FE20C530DE006492FD /* Debug */ = {
+		36DFA8A820C669D100E558DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		3657F1FF20C530DE006492FD /* Release */ = {
+		36DFA8A920C669D100E558DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,30 +373,36 @@
 			};
 			name = Release;
 		};
-		3657F20120C530DE006492FD /* Debug */ = {
+		36DFA8AB20C669D100E558DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24437A1410964851D613118A /* Pods-SWEmptyDataSet.debug.xcconfig */;
+			baseConfigurationReference = 18DA1D0A304579E52937A08A /* Pods-SWEmptyDataSet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3657F20220C530DE006492FD /* Release */ = {
+		36DFA8AC20C669D100E558DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357748688BC04053C7DA9653 /* Pods-SWEmptyDataSet.release.xcconfig */;
+			baseConfigurationReference = 11A58B69E10F23C27AF9A905 /* Pods-SWEmptyDataSet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,25 +412,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3657F1E520C530DC006492FD /* Build configuration list for PBXProject "SWEmptyDataSet" */ = {
+		36DFA88F20C669CF00E558DD /* Build configuration list for PBXProject "SWEmptyDataSet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3657F1FE20C530DE006492FD /* Debug */,
-				3657F1FF20C530DE006492FD /* Release */,
+				36DFA8A820C669D100E558DD /* Debug */,
+				36DFA8A920C669D100E558DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3657F20020C530DE006492FD /* Build configuration list for PBXNativeTarget "SWEmptyDataSet" */ = {
+		36DFA8AA20C669D100E558DD /* Build configuration list for PBXNativeTarget "SWEmptyDataSet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3657F20120C530DE006492FD /* Debug */,
-				3657F20220C530DE006492FD /* Release */,
+				36DFA8AB20C669D100E558DD /* Debug */,
+				36DFA8AC20C669D100E558DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3657F1E220C530DC006492FD /* Project object */;
+	rootObject = 36DFA88C20C669CF00E558DD /* Project object */;
 }
