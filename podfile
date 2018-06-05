@@ -1,0 +1,5 @@
+target "SWEmptyDataSet" do
+
+pod 'SWEmptyDataSet',:path=>'SWEmptyDataSet'
+
+end
