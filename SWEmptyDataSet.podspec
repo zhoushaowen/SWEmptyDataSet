@@ -16,15 +16,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/zhoushaowen/SWEmptyDataSet.git", :tag => s.version }
 
-  s.source_files  = "SWEmptyDataSet/*.{h,m}"
+  s.source_files  = "SWEmptyDataSet/SWEmptyDataSet/*.{h,m}"
   
-  s.resources  = "SWEmptyDataSet/image/*.png"
-
-  #   s.subspec 'UIKit' do |ss|
-
-  # ss.source_files = "SWExtension/SWExtension/UIKit/*.{h,m}"
-
-  # end
+  s.resources  = "SWEmptyDataSet/SWEmptyDataSet/image.bundle"
   
   s.requires_arc = true
 
