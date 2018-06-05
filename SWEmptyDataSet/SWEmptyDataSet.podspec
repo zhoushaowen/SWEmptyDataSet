@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "SWEmptyDataSet/*.{h,m}"
   
-  s.resources  = "SWEmptyDataSet/resource/*.png"
+  s.resources  = "SWEmptyDataSet/Resource/*.png"
   
   s.requires_arc = true
 
