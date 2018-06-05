@@ -1,16 +1,23 @@
 PODS:
   - DZNEmptyDataSet (1.8.1)
+  - SWEmptyDataSet (0.0.3):
+    - DZNEmptyDataSet
 
 DEPENDENCIES:
-  - DZNEmptyDataSet
+  - SWEmptyDataSet (from `./`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DZNEmptyDataSet
 
+EXTERNAL SOURCES:
+  SWEmptyDataSet:
+    :path: "./"
+
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  SWEmptyDataSet: 223f3d689b49a2b54a93224c9ce13f9c0c46604c
 
-PODFILE CHECKSUM: 5ecbc93e546d931152b46477c28c422995585aa7
+PODFILE CHECKSUM: e2caf13a964329195de626354f119f556f7740c6
 
 COCOAPODS: 1.5.3

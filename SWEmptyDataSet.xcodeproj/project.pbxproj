@@ -14,19 +14,12 @@
 		36DFA8A120C669D100E558DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8A020C669D100E558DD /* Assets.xcassets */; };
 		36DFA8A420C669D100E558DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8A220C669D100E558DD /* LaunchScreen.storyboard */; };
 		36DFA8A720C669D100E558DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8A620C669D100E558DD /* main.m */; };
-		36DFA8B920C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */; };
-		36DFA8BA20C66A4600E558DD /* loading_imgBlue_78x78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */; };
-		36DFA8BB20C66A4600E558DD /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B320C66A4600E558DD /* error@2x.png */; };
-		36DFA8BC20C66A4600E558DD /* loading_imgBlue_78x78@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */; };
-		36DFA8BD20C66A4600E558DD /* SWBaseEmptyDataSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */; };
-		36DFA8BE20C66A4600E558DD /* SWNormalEmptyDataSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11A58B69E10F23C27AF9A905 /* Pods-SWEmptyDataSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.release.xcconfig"; sourceTree = "<group>"; };
 		18DA1D0A304579E52937A08A /* Pods-SWEmptyDataSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWEmptyDataSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet.debug.xcconfig"; sourceTree = "<group>"; };
 		30F11D0648A4682EFD590DF8 /* libPods-SWEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWEmptyDataSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A699F420C66ABB00DBF3DD /* SWBaseEmptyDataSetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWBaseEmptyDataSetModel.h; sourceTree = "<group>"; };
 		36A699F520C66AEF00DBF3DD /* SWEmptyDataSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEmptyDataSetController.h; sourceTree = "<group>"; };
 		36A699F620C66AF000DBF3DD /* SWEmptyDataSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWEmptyDataSetController.m; sourceTree = "<group>"; };
 		36DFA89420C669CF00E558DD /* SWEmptyDataSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWEmptyDataSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,15 +30,6 @@
 		36DFA8A320C669D100E558DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36DFA8A520C669D100E558DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36DFA8A620C669D100E558DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SWEmptyDataSet.m"; sourceTree = "<group>"; };
-		36DFA8AF20C66A4600E558DD /* SWEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWEmptyDataSet.h; sourceTree = "<group>"; };
-		36DFA8B020C66A4600E558DD /* SWNormalEmptyDataSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNormalEmptyDataSetModel.h; sourceTree = "<group>"; };
-		36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_imgBlue_78x78@2x.png"; sourceTree = "<group>"; };
-		36DFA8B320C66A4600E558DD /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
-		36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_imgBlue_78x78@3x.png"; sourceTree = "<group>"; };
-		36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBaseEmptyDataSetModel.m; sourceTree = "<group>"; };
-		36DFA8B620C66A4600E558DD /* UIScrollView+SWEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SWEmptyDataSet.h"; sourceTree = "<group>"; };
-		36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNormalEmptyDataSetModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +65,6 @@
 		36DFA89620C669CF00E558DD /* SWEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				36DFA8AD20C66A4600E558DD /* SWEmptyDataSet */,
 				36DFA89720C669CF00E558DD /* AppDelegate.h */,
 				36DFA89820C669CF00E558DD /* AppDelegate.m */,
 				36A699F520C66AEF00DBF3DD /* SWEmptyDataSetController.h */,
@@ -93,31 +76,6 @@
 				36DFA8A620C669D100E558DD /* main.m */,
 			);
 			path = SWEmptyDataSet;
-			sourceTree = "<group>";
-		};
-		36DFA8AD20C66A4600E558DD /* SWEmptyDataSet */ = {
-			isa = PBXGroup;
-			children = (
-				36DFA8B620C66A4600E558DD /* UIScrollView+SWEmptyDataSet.h */,
-				36DFA8AE20C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m */,
-				36DFA8AF20C66A4600E558DD /* SWEmptyDataSet.h */,
-				36DFA8B020C66A4600E558DD /* SWNormalEmptyDataSetModel.h */,
-				36DFA8B720C66A4600E558DD /* SWNormalEmptyDataSetModel.m */,
-				36A699F420C66ABB00DBF3DD /* SWBaseEmptyDataSetModel.h */,
-				36DFA8B520C66A4600E558DD /* SWBaseEmptyDataSetModel.m */,
-				36DFA8B120C66A4600E558DD /* images */,
-			);
-			path = SWEmptyDataSet;
-			sourceTree = "<group>";
-		};
-		36DFA8B120C66A4600E558DD /* images */ = {
-			isa = PBXGroup;
-			children = (
-				36DFA8B220C66A4600E558DD /* loading_imgBlue_78x78@2x.png */,
-				36DFA8B320C66A4600E558DD /* error@2x.png */,
-				36DFA8B420C66A4600E558DD /* loading_imgBlue_78x78@3x.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		B5D8DC8EDACC72F200301084 /* Frameworks */ = {
@@ -148,6 +106,7 @@
 				36DFA89020C669CF00E558DD /* Sources */,
 				36DFA89120C669CF00E558DD /* Frameworks */,
 				36DFA89220C669CF00E558DD /* Resources */,
+				23D2258449A992941F45B852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,18 +154,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36DFA8BA20C66A4600E558DD /* loading_imgBlue_78x78@2x.png in Resources */,
-				36DFA8BB20C66A4600E558DD /* error@2x.png in Resources */,
 				36DFA8A420C669D100E558DD /* LaunchScreen.storyboard in Resources */,
 				36DFA8A120C669D100E558DD /* Assets.xcassets in Resources */,
 				36DFA89F20C669CF00E558DD /* Main.storyboard in Resources */,
-				36DFA8BC20C66A4600E558DD /* loading_imgBlue_78x78@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		23D2258449A992941F45B852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/images/error@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/images/loading_imgBlue_78x78@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/images/loading_imgBlue_78x78@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_imgBlue_78x78@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		69B4B90C923446735333F74F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,9 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36DFA8A720C669D100E558DD /* main.m in Sources */,
-				36DFA8BD20C66A4600E558DD /* SWBaseEmptyDataSetModel.m in Sources */,
-				36DFA8BE20C66A4600E558DD /* SWNormalEmptyDataSetModel.m in Sources */,
-				36DFA8B920C66A4600E558DD /* UIScrollView+SWEmptyDataSet.m in Sources */,
 				36A699F720C66AF000DBF3DD /* SWEmptyDataSetController.m in Sources */,
 				36DFA89920C669CF00E558DD /* AppDelegate.m in Sources */,
 			);
@@ -381,10 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,10 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
