@@ -170,9 +170,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SWEmptyDataSet/Pods-SWEmptyDataSet-resources.sh",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/resource/error@2x.png",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/resource/loading_imgBlue_78x78@2x.png",
-				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/resource/loading_imgBlue_78x78@3x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/error@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/loading_imgBlue_78x78@2x.png",
+				"${PODS_ROOT}/../SWEmptyDataSet/SWEmptyDataSet/Resource/loading_imgBlue_78x78@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -356,10 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,10 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G75M8TE39H;
 				INFOPLIST_FILE = SWEmptyDataSet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.SWEmptyDataSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
